@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d692bed0-a044-4907-ac2a-09b88dde5cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/menu-dev.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/menu.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/MenuAoolication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/controller/MenuHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/repository/MenuRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/mapping/MenuRepository.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/menu/src/main/resources/redemi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/src/main/resources/shared/menu-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/src/main/resources/shared/menu-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configserver/target/classes/shared/menu-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/configserver/target/classes/shared/menu-dev.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/menu/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/src/main/java/com/southwind/MenuAoolication.java" beforeDir="false" afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/MenuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/src/main/java/com/southwind/controller/MenuHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/menu/src/main/java/com/southwind/controller/MenuHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/classes/com/southwind/MenuAoolication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu/target/classes/com/southwind/controller/MenuHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/menu/target/classes/com/southwind/controller/MenuHandler.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +25,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -54,6 +58,9 @@
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.annotationProcessors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\aispringclouddemo\menu\src\main\resources\mapping" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\aispringclouddemo\menu\src\main\resources" />
       <recent name="F:\aispringclouddemo\configserver\src\main\resources\shared" />
@@ -71,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MenuAoolication">
+  <component name="RunManager" selected="Spring Boot.MenuApplication">
     <configuration name="ConfigServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="configserver" />
       <extension name="coverage">
@@ -98,7 +105,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuAoolication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="menu" />
       <extension name="coverage">
         <pattern>
@@ -106,7 +113,7 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.MenuAoolication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.southwind.MenuApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -126,10 +133,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.MenuAoolication" />
-        <item itemvalue="Spring Boot.OrderApplication" />
+        <item itemvalue="Spring Boot.MenuApplication" />
         <item itemvalue="Spring Boot.ConfigServerApplication" />
         <item itemvalue="Spring Boot.EurekaServerApplication" />
+        <item itemvalue="Spring Boot.OrderApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +152,16 @@
       <updated>1572312885177</updated>
       <workItem from="1572312886793" duration="575000" />
       <workItem from="1572322844346" duration="94000" />
-      <workItem from="1572343219995" duration="6678000" />
+      <workItem from="1572343219995" duration="15383000" />
+      <workItem from="1572363128258" duration="724000" />
+      <workItem from="1572363872494" duration="403000" />
+      <workItem from="1572364321305" duration="99000" />
+      <workItem from="1572413925236" duration="284000" />
+      <workItem from="1572414419508" duration="955000" />
+      <workItem from="1572415476611" duration="437000" />
+      <workItem from="1572415937200" duration="111000" />
+      <workItem from="1572416112985" duration="3742000" />
+      <workItem from="1572419936416" duration="2760000" />
     </task>
     <servers />
   </component>
@@ -157,7 +173,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
