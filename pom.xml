@@ -13,6 +13,8 @@
         <module>configserver</module>
         <module>order</module>
         <module>menu</module>
+        <module>client</module>
+        <module>user</module>
     </modules>
     <!-- 引入Spring Boot依赖 -->
     <parent>
